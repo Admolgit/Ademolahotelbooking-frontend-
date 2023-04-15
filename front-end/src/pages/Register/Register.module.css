@@ -1,0 +1,46 @@
+.register {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register {
+  font-size: 16px;
+  text-align: center;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lInput{
+  height: 30px;
+  padding: 10px;
+}
+
+.lButton {
+  border: none;
+  padding: 10px 20px;
+  background: #1d00c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lButton:hover {
+  background: white;
+  color: #1d00c2;
+}
+
+.lButton:disabled {
+  background-color: #1d00c2;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+}
